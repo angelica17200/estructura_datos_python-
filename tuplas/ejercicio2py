@@ -1,0 +1,39 @@
+# EJERCCIOS TUPLAS
+
+# metodos propios 
+
+# 1. Cómo definir una tupla y cómo acceder a sus elementos.
+
+tupla=("Casa",'2',345,'Perro',99)
+# funcion append:añade un elemento a la lista
+print("Lista original",tupla)
+tupla.append(995)
+tupla.append(7)
+print("Lista despues de usar append:" , tupla)
+# Función sort: ordena la tupla
+tupla.sort()
+print("Lista ordenada:", tupla)
+# Función reverse:invierte el ordden de la tupla.
+tupla.reverse()
+print("Lista al revés:",tupla)
+# Función extend: añade los elementos de un lista a la tupla.
+tupla_extend =[1,5,87,45]
+tupla.extend(tupla_extend)
+print("Lista despues de extend:", tupla)
+# Función count: cuenta el numero de veces  que aparece el elemento indicado como parametro dentro de la tupla.
+print("Número de elementos 45:",tupla.count(45))
+#Función insert: añade el elemento pasado como parametro a la tupla en la posición indicada tambien por parametros
+tupla.insert(4,111)
+print("Lista despues de insert:", tupla)
+# Función remove: elimina la primera ocurrencia empenzando por la izquierda de la tupla del elemnto inidcado como parámetro.
+tupla.remove(45)
+print("Lista despues de remove:", tupla)
+#Función index: devuelve la primera posición de la primera ocurrencia de izquierda a derecha en la tupla, del elemento pasado como parámetro.
+print("Posición del elemento 11:", tupla.index(111))
+#Funciín pop: elimina un elemento de la tupla y lo devuelve como resultado de la operación.
+tupla.pop()
+print("Lista despues de pop:", tupla )
+# Función clear: elimina los elementos de la tupla.
+tupla.clear
+print("Lista despues de clear:", tupla)
+

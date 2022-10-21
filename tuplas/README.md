@@ -24,3 +24,5 @@ ocupan posiciones concretas, y mediante esa posición que
 
 - tanto en las listas como en las tuplas, los elementos 
 empienzan por la posición 0, no por la 1 como paracería lo obvio. Tenlo en cuenta cuando utilices Tuplas.
+
+tupla=("Casa",'2',345,'Perro',99)
